@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import axios from 'axios'
+// import axios from 'axios'
 class Forms extends Component {
     constructor(props){
         super(props)
@@ -14,11 +14,11 @@ class Forms extends Component {
     submitHandler=(e)=>{
          e.preventDefault()
          console.log(this.state)
-         axios.post('http://jsonplaceholder.typicode.com/posts',this.state).then(response=>{
-             console.log("response",response.data)
-         }).catch(error=>{
-            console.log("error",error) 
-         })
+        //  axios.post('http://jsonplaceholder.typicode.com/posts',this.state).then(response=>{
+        //      console.log("response",response.data)
+        //  }).catch(error=>{
+        //     console.log("error",error) 
+        //  })
        }
   
     render() {

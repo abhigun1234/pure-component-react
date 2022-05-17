@@ -13,14 +13,7 @@ import HooksCounter from './HooksCounter';
 function App() {
   return (
     <div className="App">
-    {/* <RefsDemo></RefsDemo> */}
-    {/* <Posts></Posts> */}
-    {/* <Forms></Forms> */}
-    {/* <RefDemo></RefDemo> */}
-    {/* <FetchData></FetchData> */}
-    {/* <Login></Login> */}
-    {/* <HooksCounter></HooksCounter> */}
-    {/* <Posts></Posts>  */}
+
     <Parent></Parent>
     </div>
   );
