@@ -10,10 +10,11 @@ class RefDemo extends Component {
     componentDidMount(){
        console.log("this.refName",  this.refName)
         this.refName.current.focus()
+        //
     }
     onHandleEvent=()=>{
         console.log("this.refName.current.value",this.refName)
-        console.log("this.refName.current.value",this.refName.current.value)
+        // console.log("this.refName.current.value",this.refName.current.value)
     }
     render() {
         return (
