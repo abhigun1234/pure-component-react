@@ -12,13 +12,14 @@ class RefDemo extends Component {
         this.refName.current.focus()
     }
     onHandleEvent=()=>{
-
+        console.log("this.refName.current.value",this.refName)
         console.log("this.refName.current.value",this.refName.current.value)
     }
     render() {
         return (
             <div>
                 <input ref={this.refName} type="text"></input>
+                {/* <input type="text"></input> */}
                 <button onClick={this.onHandleEvent}>click</button>
                 
             </div>
